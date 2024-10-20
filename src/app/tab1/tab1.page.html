@@ -1,17 +1,34 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-content>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://i.pinimg.com/564x/86/12/3a/86123a96768e09a1b195d975fe6718b0.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/030/316/849/large_2x/financial-insight-percent-symbol-on-blurred-trading-graph-captures-stock-market-intricacies-vertical-mobile-wallpaper-ai-generated-free-photo.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://static.vecteezy.com/system/resources/thumbnails/033/111/020/small_2x/financial-chart-displays-trading-profits-losses-and-stock-markets-upward-trend-vertical-mobile-wallpaper-ai-generated-free-photo.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="btn">
+    <button routerLink="tab2">Get Started</button>
+  </div>
 </ion-content>

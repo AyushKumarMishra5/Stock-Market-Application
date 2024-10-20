@@ -1,0 +1,101 @@
+ion-content{
+    --background: white;
+}
+.payment{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 10px;
+    color: #18181B;
+    text-shadow: red;
+}
+
+.payment ion-item{
+    --background: transparent;
+    box-shadow: 2px 2px 6px black;
+    margin-top: 15px;
+}
+
+.payment ion-input{
+    --background: transparent;
+    width: 300px;
+    height: 50px;
+    color: black;
+    font-size: 22px;
+    font-family: cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.qr{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 600;
+    margin: 10px;
+    color: #18181B;
+    text-shadow: red;
+}
+
+.qr img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 2px black;
+}
+
+.options{
+    margin-top: 10px;
+}
+.options ion-item{
+    --background: transparent;
+    box-shadow: 2px 2px 4px black;
+}
+
+.options ion-label{
+    color: #18181B;
+    padding-left: 10px;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.options svg{
+    padding-right: 20px;
+}
+
+.pay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(18, 73, 255);
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 500;
+    margin-top: 20px;
+}

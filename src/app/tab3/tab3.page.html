@@ -1,17 +1,65 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
-</ion-content>
+<ion-content class="scroll">
+  <div class="portfolio">
+    <img src="https://png.pngtree.com/element_our/png/20181206/users-vector-icon-png_260862.jpg" alt="">
+    <h2>22 aug 10:35 GMT</h2>
+    <svg routerLink="tab4" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#F3F3F3"><path d="M240-160q-66 0-113-47T80-320v-320q0-66 47-113t113-47h480q66 0 113 47t47 113v320q0 66-47 113t-113 47H240Zm0-473.33h480q26.67 0 50.33 7.66Q794-618 813.33-603v-37q0-39-27.16-66.17Q759-733.33 720-733.33H240q-39 0-66.17 27.16Q146.67-679 146.67-640v37q19.33-15 43-22.67 23.66-7.66 50.33-7.66Zm-89.33 134L617-386.67q7.67 2 15.67.34 8-1.67 14-7l153-128q-12.34-20.34-33.34-32.84-21-12.5-46.33-12.5H240q-32 0-56.5 18.84-24.5 18.83-32.83 48.5Z"/></svg>
+  </div>
+  <div class="box1">
+    <input type="text" name="myname" id="stock" placeholder="Search by stocks, Mutual funds...">
+  </div>
+  <div class="over">
+    <h2>Portfolio <span>Overview</span></h2>
+  </div>
+  <div class="value">
+    <h2>Current Value</h2>
+    <h3>26,35,800</h3>
+    <h4>|</h4>
+    <h5><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#75FB4C"><path d="M480-545.33 287.33-352.67 240-400l240-240 240 240-47.33 47.33L480-545.33Z"/></svg></h5>
+    <h1>
+      Total Gains 
+      <br>
+      6,980(+8%)
+    </h1>
+    <h6><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#EA3323"><path d="M480-344 240-584l47.33-47.33L480-438.67l192.67-192.66L720-584 480-344Z"/></svg></h6>
+    <p>
+      Total Losses
+      <br>
+      4,180(-3%)
+    </p>
+  </div>
+  <div class="market">
+    <h2>Today's <span>Market</span></h2>
+    <h1>
+      NIFTY
+      <br>
+      17,450.50
+      <p>-12.006%</p>
+      <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#EA3323"><path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z"/></svg>
+    </h1>
+    <h6>
+      NIFTY
+      <br>
+      17,450.50
+      <p>-12.006%</p>
+      <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#EA3323"><path d="M480-344 240-584l43-43 197 197 197-197 43 43-240 240Z"/></svg>
+    </h6>
+    <h3>
+      NIFTY
+      <br>
+      17,450.50
+      <p>+2.006%</p>
+      <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#75FB4C"><path d="M480-545.33 287.33-352.67 240-400l240-240 240 240-47.33 47.33L480-545.33Z"/></svg>
+    </h3>
+    <h4>
+      NIFTY
+      <br>
+      17,450.50
+      <p>+21.966%</p>
+      <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#75FB4C"><path d="M480-545.33 287.33-352.67 240-400l240-240 240 240-47.33 47.33L480-545.33Z"/></svg>
+    </h4>
+    <div class="com">
+      <h2>Investment <span>Ideas</span></h2>
+      <button routerLink="tab5">view</button>
+    </div>
+  </div>
+  </ion-content>

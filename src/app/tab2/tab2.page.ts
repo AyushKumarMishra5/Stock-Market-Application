@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { AlertController } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +9,16 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  username = '';
+  password = '';
+  cnf = '';
+  phone = '';
+  mail = '';
 
+  constructor() {}
+  async onSubmit()
+  {
+    if(this.username == " " && this.username.length <5){
+    }
+  }
 }

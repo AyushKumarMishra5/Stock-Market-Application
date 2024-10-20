@@ -1,0 +1,492 @@
+ion-content{
+    --background: linear-gradient(15deg, #0a0a0e, rgb(7, 7, 17));
+}
+.portfolio img{
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    filter: drop-shadow( 1px 1px 2px white);
+    margin: 10px;
+}
+
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio h2{
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1 input{
+    width: 380px;
+    height: 50px;
+    border-radius: 6px;
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: cursive;
+    background-color: transparent;
+    background-blend-mode: darken;
+    box-shadow: 1px 1px 1px white;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.over{
+    display: flex;
+    margin-left: 10px;
+}
+
+.over h2{
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+.over span{
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.value{
+    width: 400px;
+    height: 180px;
+    border-radius: 15px;
+    background: linear-gradient(100deg, rgb(62, 93, 248), rgb(82, 151, 255));
+    margin: 10px;
+}
+
+.value h2{
+    display: flex;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 400;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.value h3{
+    display: flex;
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 420;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+.value h4{
+    display: flex;
+    float: right;
+    margin-right: 23px;
+    margin-top: -45px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px white;
+    padding-left: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.value h5{
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0, 0.85);
+    background-blend-mode: darken;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value h1{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 400;
+    margin-left: 86px;
+    margin-top: -60px;
+}
+
+.value h6{
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0, 0.85);
+    background-blend-mode: darken;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: -63px;
+
+}
+
+.value p{
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 400;
+    margin-left: 270px;
+    margin-top: -66px;
+}
+
+.market{
+    display: flex;
+    font-family: cursive;
+    font-size: 21px;   
+}
+
+.market{
+    display: flex;
+    margin-left: 10px;
+}
+
+.market h2{
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
+
+.market span{
+    font-family: cursive;
+    font-size: 21px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.market h1{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: darken;
+    box-shadow: 0.5px 0.5px 1px whitesmoke;
+    font-size: 19px;
+    font-family: cursive;
+    margin-top: 70px;
+    padding: 10px 10px;
+    position: absolute;
+    left: 6%;
+}
+
+.market h1 svg {
+    display: inline-flex;
+    position: absolute;
+    right: 3%;
+}
+.market h3 svg {
+    display: inline-flex;
+    position: absolute;
+    right: 3%;
+}
+.market h6 svg {
+    display: inline-flex;
+    position: absolute;
+    right: 3%;
+}
+.market h4 svg {
+    display: inline-flex;
+    position: absolute;
+    right: 3%;
+}
+
+.market h1 svg:hover {
+    animation: move2 2s infinite ease-in-out;
+}
+.market h6 svg:hover {
+    animation: move2 2s infinite ease-in-out;
+}
+.market h3 svg:hover {
+    animation: move1 2s infinite ease-in-out;
+}
+.market h4 svg:hover {
+    animation: move1 2s infinite ease-in-out;
+}
+
+@keyframes move1 {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    20% {
+        transform: translateY(-20px);
+        opacity: 0.5;
+    }
+    40% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    60% {
+        transform: translateY(22px);
+        opacity: 0.5;
+    }
+    80% {
+        transform: translateY(15px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes move2 {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    20% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+    40% {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    60% {
+        transform: translateY(-30px);
+        opacity: 0.5;
+    }
+    80% {
+        transform: translateY(-20px);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
+.market p{
+    display: flex;
+    position: absolute;
+    left: 5%;
+}
+
+.market h6{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: darken;
+    box-shadow: 0.5px 0.5px 1px whitesmoke;
+    font-size: 19px;
+    font-family: cursive;
+    margin-top: 70px;
+    padding: 10px 10px;
+    position: absolute;
+    right: 6%;
+}
+
+.market h3{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: darken;
+    box-shadow: 0.5px 0.5px 1px whitesmoke;
+    font-size: 19px;
+    font-family: cursive;
+    margin-top: 70px;
+    padding: 10px 10px;
+    position: absolute;
+    left: 6%;
+    bottom: 10%;
+}
+
+.market h4{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(52, 52, 52);
+    background-blend-mode: darken;
+    box-shadow: 0.5px 0.5px 1px whitesmoke;
+    font-size: 19px;
+    font-family: cursive;
+    margin-top: 70px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+}
+
+
+.market h1 p{
+    margin-left: 58%;
+    margin-top: -3px;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 300;
+    color: red;
+}
+
+.market h6 p{
+    margin-left: 58%;
+    margin-top: -3px;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 300;
+    color: red;
+
+}
+.market h3 p{
+    margin-left: 58%;
+    margin-top: -3px;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 300;
+    color: green;
+
+}
+
+.market h4 p{
+    margin-left: 58%;
+    margin-top: -3px;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: 300;
+    color: green;
+}
+
+.com{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 4%;
+}
+
+.com h2{
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 10px;
+}
+
+.com span{
+    color: white;
+    font-family: cursive;
+    font-size: 21px;
+}
+
+.com button{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #0a0a0e;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    position: absolute;
+    right: -107%;
+    margin-top: 5px;
+}
+
+.com button:hover{
+    box-shadow: 1px 1px 2px white;
+}
+
+.img{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-top: 275px;
+    position: absolute;
+    left: 2%;
+    background-color: rgb(52, 52, 52);
+}
+
+.img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.img button{
+    display: flex;
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: rgb(73, 255, 73);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 9px;
+    position: absolute;
+    right: 25px;
+}
+.img2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid white;
+    margin-top: 275px;
+    position: absolute;
+    left: 55%;
+    background-color: rgb(52, 52, 52);
+}
+
+.img2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.img2 button{
+    display: flex;
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background-color: rgb(73, 255, 73);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 9px;
+    position: absolute;
+    right: 25px;
+}

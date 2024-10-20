@@ -1,17 +1,18 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<ion-content>
+    <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgeY2Yxx2jV0nLmwD0Uiip1dYOdZC_xMhrbBGG6xbkE8jMtThZdonZx3KihJZvV5u_yZQ&usqp=CAU" alt="">
+    </div>
+    <div class="form" (submit)="onSubmit()">
+        <input type="text" placeholder="Username" [(ngModel)]="username" id="Name" required maxlength="20" minlength="5">
+        <br>
+        <input type="password" placeholder="Passowrd" [(ngModel)]="password" id="Pass" required minlength="8" maxlength="15">
+        <br>
+        <input type="password" placeholder="Confirm Password" [(ngModel)]="cnf" id="Cnf" required minlength="8" maxlength="15">
+        <br>
+        <input type="number" placeholder="Contact No." [(ngModel)]="phone" id="Number" required minlength="10" maxlength="10">
+        <br>
+        <input type="email" id="Email" placeholder="Email ID" [(ngModel)]="mail" required minlength="10" maxlength="30">
+        <br>
+        <button routerLink="tab3">Sign in</button>
+    </div>
 </ion-content>
